@@ -1244,7 +1244,7 @@
 
 		function calcPosition()
 		{
-			if (!opt.inline)
+			if (false && !opt.inline)
 			{
 				var offset = $(self).offset();
 				if ($(opt.container).css('position') == 'relative')
